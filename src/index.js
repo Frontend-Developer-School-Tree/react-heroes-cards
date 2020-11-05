@@ -1,10 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
 
-ReactDOM.appendChild(
-  <React.StrictMode>
-   <App/> {/* questo è il nostro componente radice chiamato APP */}
-  </React.StrictMode>,
-  document.getElementsById('root')
-);
+ReactDOM.render(<App />, document.getElementById("root"));
