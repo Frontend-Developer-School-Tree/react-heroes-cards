@@ -39,3 +39,8 @@ header img {
     border-radius: 50%;
     object-fit: cover;
 }
+
+.btnLikes {
+    background-color: transparent;
+    border: none;
+}
